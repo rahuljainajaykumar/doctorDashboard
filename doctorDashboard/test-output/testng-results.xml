@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="344" started-at="2016-07-16T04:42:36Z" finished-at="2016-07-16T04:42:37Z">
+    <groups>
+    </groups>
+    <test name="DoctorInfoTest" duration-ms="344" started-at="2016-07-16T04:42:36Z" finished-at="2016-07-16T04:42:37Z">
+      <class name="com.doctorDetails.DoctorDashboardTest">
+        <test-method status="PASS" signature="retrieveDoctorInfoUsingInvalidInput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.doctorDetails.DoctorDashboardTest@5474c6c]" name="retrieveDoctorInfoUsingInvalidInput" duration-ms="282" started-at="2016-07-15T21:42:36Z" data-provider="invalidInput" finished-at="2016-07-15T21:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xxxxc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value is-null="true"/>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[[]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveDoctorInfoUsingInvalidInput -->
+        <test-method status="PASS" signature="retrieveDoctorInfoUsingName(java.lang.String, java.lang.String)[pri:0, instance:com.doctorDetails.DoctorDashboardTest@5474c6c]" name="retrieveDoctorInfoUsingName" duration-ms="18" started-at="2016-07-15T21:42:37Z" data-provider="doctorName" finished-at="2016-07-15T21:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neeshit Parkeen]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[{"Area":"San Jose","Speciality":"Eye Doctor","Insurance":"BLUESHIELD","Gender":"Female","Name":"Neeshit Parkeen","Ratings":3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveDoctorInfoUsingName -->
+        <test-method status="PASS" signature="retrieveDoctorInfoUsingValidInput(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.doctorDetails.DoctorDashboardTest@5474c6c]" name="retrieveDoctorInfoUsingValidInput" duration-ms="12" started-at="2016-07-15T21:42:37Z" data-provider="validInput" finished-at="2016-07-15T21:42:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neeshit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[eye]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[san jose]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Blueshield]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[{"Area":"San Jose","Speciality":"Eye Doctor","Insurance":"BLUESHIELD","Gender":"Female","Name":"Neeshit Parkeen","Ratings":3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveDoctorInfoUsingValidInput -->
+      </class> <!-- com.doctorDetails.DoctorDashboardTest -->
+    </test> <!-- DoctorInfoTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>

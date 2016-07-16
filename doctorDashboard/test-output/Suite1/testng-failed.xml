@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="DoctorInfoTest(failed)">
+    <classes>
+      <class name="com.doctorDetails.DoctorDetailsTest">
+        <methods>
+          <include name="retrieveDoctorInfoUsingInvalidInput" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.doctorDetails.DoctorDetailsTest -->
+    </classes>
+  </test> <!-- DoctorInfoTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
